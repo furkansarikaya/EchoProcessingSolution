@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{57298502-C7FC-4B57-BD55-E6022EFEDCFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoProcessingServer", "src\EchoProcessingServer\EchoProcessingServer.csproj", "{3B0249BA-FABA-4940-B02C-2F897A5175E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpToGrpcClient", "src\TcpToGrpcClient\TcpToGrpcClient.csproj", "{3D668BE8-AFFE-41B2-B54A-D7AA2A80104F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateStream", "src\DateStream\DateStream.csproj", "{CCD6DB0A-91FA-467E-8F04-84DF32AE7FAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B0249BA-FABA-4940-B02C-2F897A5175E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0249BA-FABA-4940-B02C-2F897A5175E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0249BA-FABA-4940-B02C-2F897A5175E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0249BA-FABA-4940-B02C-2F897A5175E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D668BE8-AFFE-41B2-B54A-D7AA2A80104F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D668BE8-AFFE-41B2-B54A-D7AA2A80104F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D668BE8-AFFE-41B2-B54A-D7AA2A80104F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D668BE8-AFFE-41B2-B54A-D7AA2A80104F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD6DB0A-91FA-467E-8F04-84DF32AE7FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD6DB0A-91FA-467E-8F04-84DF32AE7FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD6DB0A-91FA-467E-8F04-84DF32AE7FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD6DB0A-91FA-467E-8F04-84DF32AE7FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B0249BA-FABA-4940-B02C-2F897A5175E2} = {57298502-C7FC-4B57-BD55-E6022EFEDCFC}
+		{3D668BE8-AFFE-41B2-B54A-D7AA2A80104F} = {57298502-C7FC-4B57-BD55-E6022EFEDCFC}
+		{CCD6DB0A-91FA-467E-8F04-84DF32AE7FAC} = {57298502-C7FC-4B57-BD55-E6022EFEDCFC}
+	EndGlobalSection
+EndGlobal
